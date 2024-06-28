@@ -1,8 +1,4 @@
-<%-- 
-    Document   : lecturer
-    Created on : Jun 19, 2024, 4:49:40 PM
-    Author     : X1 Nano
---%>
+
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,7 +8,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
          <style>
-        /* Your CSS styles here */
         body {
             font-family: Arial, sans-serif;
             background-color: darkorange;

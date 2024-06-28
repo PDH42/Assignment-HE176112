@@ -1,8 +1,4 @@
-<%-- 
-    Document   : take
-    Created on : Jun 24, 2024, 2:01:09 PM
-    Author     : sonnt-local
---%>
+
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

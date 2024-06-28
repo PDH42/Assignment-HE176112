@@ -37,6 +37,9 @@
                 cursor: pointer;
                 font-size: 16px;
             }
+            .login-button:hover {
+                background-color: darkgreen;
+            }
         </style>
     </head>
     <body>
@@ -55,8 +58,14 @@
             %>
             <div class="message <%= messageType %>">
                 <%= message %>
+                <button class="login-button" onclick="redirectToLogin()">Go to Login</button>
             </div>
             <% } %>
         </div>
+        <script>
+            function redirectToLogin() {
+                window.location.href = 'exam/lecturer';
+            }
+        </script>
     </body>
 </html>
